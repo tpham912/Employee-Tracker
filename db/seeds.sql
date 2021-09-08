@@ -9,21 +9,14 @@ VALUES
 
 INSERT INTO roles (role_title, salary, department_id)
 VALUES
-    ( "Sales Lead", 100.00, 1),
-    ( "Salesperson", 80.00, 1),
-    ( "Lead Engineer", 150.00, 2),
-    ( "Software Engineer", 120.00, 2),
-    ( "Account Manager", 160.00, 3),
-    ( "Accountant", 125.00, 3),
-    ( "Legal Team Lead", 250.00, 4),
-    ( "Lawyer", 190.00, 4);
-
--- INSER INTO manager (name)
--- VALUES
---     ("John Doe")
---     ("Ashley Rodriguez")
---     ("Kunal Singh")
---     ("Sarah Lourd")
+    ( "Sales Lead", 100.000, 1),
+    ( "Salesperson", 80.000, 1),
+    ( "Lead Engineer", 150.000, 2),
+    ( "Software Engineer", 120.000, 2),
+    ( "Account Manager", 160.000, 3),
+    ( "Accountant", 125.000, 3),
+    ( "Legal Team Lead", 250.000, 4),
+    ( "Lawyer", 190.000, 4);
 
 INSERT INTO employee (firstName, lastName, role_id, manager_id)
 VALUES
