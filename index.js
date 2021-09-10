@@ -76,6 +76,8 @@ function showFirstQuestion(){
             addRole()
         }else if(choice =="Update Employee Role"){
             updateEmployeeRole()
+        }else if (choice =="View All Roles"){
+            viewAllRoles()
         }
     })
 }
@@ -229,8 +231,18 @@ function updateEmployeeRole(){
     })
 }
 
+function viewAllRoles(){
+    const queryString = `
+    SELECT *
+    FROM roles`
 
-// `UPDATE employee
-    // SET role_id = roleId(?)
-    // WHERE employee.id = empId(?)
-    // `
+    connection.query(queryString, (err, data) => {
+        if(err) throw err;
+        console.log("\n")
+        console.table(data)
+        console.log("\n")
+
+        showFirstQuestion()
+    })
+}
+

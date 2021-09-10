@@ -4,5 +4,6 @@ This project was created for business owners to be able to view and manage depar
 
 GitHub link: https://github.com/tpham912/Employee-Tracker
 
+## Demo gif 
 
 
