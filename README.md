@@ -6,4 +6,4 @@ GitHub link: https://github.com/tpham912/Employee-Tracker
 
 ## Demo gif 
 
-
+![Demo gif](./Asset/Demo.gif)
