@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const mysql = require('mysql2');
-// const { connect } = require("http2");
 let roleArr = [];
 let empArr = [];
 
@@ -246,3 +245,4 @@ function viewAllRoles(){
     })
 }
 
+``
