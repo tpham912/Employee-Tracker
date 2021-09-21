@@ -4,7 +4,6 @@
   <ol>
     <li><a href="#description">Description</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#demo">Demo Gif</a></li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#contributors">Contributor</a></li>
@@ -20,7 +19,7 @@ This project was created for business owners to be able to view and manage depar
 - [Javascript](https://www.javascript.com/)
 - [MySQL](https://www.mysql.com/)
 
-# Demo Gif
+# Demo
 
 ![Demo gif](./Asset/Demo.gif)
 
